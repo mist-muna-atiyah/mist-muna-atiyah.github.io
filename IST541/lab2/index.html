@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Lab 1: Job Aid</title>
+<title>Lab 2: Job Aid</title>
 <link href="css/jobaid.css.css" rel="stylesheet">
 
 
@@ -17,35 +17,45 @@
        <h2> By  Muna Atiyah </h2>  <br />
 		</div>
 		
-	<div id="step1">
+	<Details open>
 
-		<div class="stepTitle">
+		<summary
+		class="stepTitle">
 			 Step 1: Turn Off the Engine
-		</div>
+		</summary>
 
 		<div class="stepContent">
 
 			<div class="stepDescription">
-				<p>Park your vehicle at the gas pump and ensure that your engine is completely turned off. This includes turning off the ignition and not idling the engine. This step is crucial for safety to prevent any ignition sources near gasoline.</p>          
+				<p>Park your vehicle at the gas pump and ensure that your engine is completely turned off. This includes turning off the ignition and not idling the engine. This step is crucial for safety to prevent any ignition sources near gasoline.
+               <div class="warning-box">            
+                <p class="warning">
+                <span style="font-size: 24px; margin-right: 10px;">&#9888;</span> Warning.
+                </p>
+               <p class="warning">
+              Turn Off All Electronic Devices: <strong>Switch off all electronic devices, including cell phones, radios, and other</strong> potential sources of ignition.
+              </p>
+</div>
       
 			</div>
 
-			<div class="stepImage">
+			    <div class="stepImage">
 				<img
-					 src="img/parkcar.png" alt="Park your car" /> 
+					 src="../lab1/img/parkcar.png""alt="Park your car" /> 
 				<p><a href="https://p1.pxfuel.com/preview/445/369/102/petrol-gasoline-diesel-gas.jpg">Image Credit</a></p>
 			</div>
 
 			</div><!--stepContent-->
 
-    </div><!--closing step1-->
+    </Details><!--closing step1-->
 		<br>
 		
-		<div id="step2">
+		<Details>
 
-			<div class="stepTitle">
+			<summary
+			class="stepTitle">
 				Step 2: Open the Fuel Door
-			</div>
+			</summary>
 
 			<div class="stepContent">
 
@@ -55,42 +65,45 @@
 
 				<div class="stepImage">
 				<img
-					 src="img/opengascap.png" alt="opengascap" />
+					 src="../lab1/img/opengascap.png" alt="opengascap" />
 					<p><a href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Typical_FlexFuel_filler_door_label_and_yellow_cap_12_MIA_12_2008.jpg">Image Credit</a></p>
 
 			</div><!--stepContent-->
 				
 
-    </div><!--closing step2-->
+    </Details><!--closing step2-->
 			<br>
 			
-		 <div id="step3">
+		 <Details>
 
-			    <div class="stepTitle">
+			    <summary
+				class="stepTitle">
 				     Step 3: Select the Fuel Type
-			    </div>
+			    </summary>
                 <div class="stepContent">
 
 				     <div class="stepDescription">
-					<P>Examine the labels on the gas pump to determine the type of fuel your vehicle requires. The labels will specify whether it's regular, premium, diesel, or another type of fuel. Ensure you select the correct fuel type to avoid engine damage.</P>
-			        <p><a href="https://living.geico.com/driving/auto/auto-care/premium-vs-regular-gas-whats-the-difference/#:~:text=Gas%20stations%20in%20the%20United%20States%20generally%20offer%20three%20octane,know%20which%20you%20are%20getting."></a></p>
-						
-				</div>
+					<P>Examine the labels on the gas pump to determine the type of fuel your vehicle requires. The labels will specify whether it's regular, premium, diesel, or another type of fuel. Ensure you select the correct fuel type to avoid engine damage.
+					</p>
+				 <p><a href="https://living.geico.com/driving/auto/auto-care/premium-vs-regular-gas-whats-the-difference/#:~:text=Gas%20stations%20in%20the%20United%20States%20generally%20offer%20three%20octane,know%20which%20you%20are%20getting.">Premium Gas Vs. Regular Gas</a></p>
+		
+			</div>
 		        <div class="stepImage">
 				<img
-					 src="img/select.png" alt="select" />
+				 src="../lab1/img/gastype.png" alt="select" />
 					<p><a href="https://upload.wikimedia.org/wikipedia/commons/1/19/No_Ethanol_Added_-_Premium_Recreational_Gasoline_-_91_Octane_Gas_%2846484945855%29.jpg">Image Credit</a></p>
 
 			</div><!--stepContent-->
 						
-	</div><!--closing step3-->
+	</Details><!--closing step3-->
 			<br>
 				
-		   <div id="step4">
+		   <Details>
 
-			 <div class="stepTitle">
+			 <summary
+			 class="stepTitle">
 				Step 4:  Insert Payment Method
-			</div>
+			</summary>
 
 			<div class="stepContent">
 
@@ -102,19 +115,20 @@
 				</div>
 				<div class="stepImage">
 				<img
-					 src="img/insert.png" alt="insert" />
+					 src="../lab1/img/insert.png" alt="insert" />
 					
 					<p><a href="https://www.flickr.com/photos/mlaaker/223908740/in/photostream/">Image Credit</a></p>
 
 			</div><!--stepContent-->
 				
-		</div><!--closing step4-->
+		</Details><!--closing step4-->
 			   <br>
-		    <div id="step5">
+		    <Details>
 
-			   <div class="stepTitle">
+			   <summary
+			   class="stepTitle">
 				Step 5: Begin Pumping Gas
-			   </div>
+			   </summary>
 
 			   <div class="stepContent">
 				   <div class="stepDescription">
@@ -122,20 +136,21 @@
 				   </div>
 				            <div class="stepImage">
 				             <img
-					         src="img/pump.png" alt="pump" />
+					         src="../lab1/img/pump.png" alt="pump" />
 					
 					       <p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Fuel_dispenser_in_use.jpg/900px-Fuel_dispenser_in_use.jpg?20190601225915">Image Credit</a></p>
 					
 					</div><!--stepContent-->
 				
-	 </div><!--closing step5-->
+	 </Details><!--closing step5-->
 				<br>
 				
-	      <div id="step6">
+	      <Details>
 
-			   <div class="stepTitle">
+			   <summary
+			   class="stepTitle">
 		       Step 6:  Fill the Tank and Replace the Nozzle
-			   </div>
+			   </summary>
 
 			     <div class="stepContent">
 				      <div class="stepDescription">
@@ -143,19 +158,19 @@
 				     </div>
 				<div class="step6mage">
 				<img
-					 src="img/Nozzle.png" alt="Nozzle" />
+					 src="../lab1/img/Nozzle.png" alt="Nozzle" />
 					<p><a href="https://images.rawpixel.com/image_png_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjcyMS0xNDYtcC5wbmc.png">Image Credit</a></p>
 
 			</div><!--stepContent-->
 				
-		</div><!--closing step6-->
+		</Details><!--closing step6-->
 			  <br>
 					
-			<div id="step7">
+			<Details>
 
-			    <div class="stepTitle">
+			    <summary class="stepTitle">
 				Step 7:  Take the Receipt
-			    </div>
+			    </summary>
 
 			          <div class="stepContent">
 			          <div class="stepDescription">
@@ -163,30 +178,18 @@
 				      </div>
 				<div class="step7mage">
 				              <img
-					       src="img/receipt.png" alt="receipt" />
+					       src="../lab1/img/receipt.png" alt="receipt" />
 					<p><a href="https://www.flickr.com/photos/101474876@N06/44551080824/in/photostream/">Image Credit</a></p>
 								
 					      
 			  </div><!--stepContent-->
-					         
-		                     
-					
-					
-		 </div><!--closing step7-->
+					            		
+		 </Details><!--closing step7-->
 			   </div><!--stepContent-->
 			  <br>
 						
-						<div class="stepTitle">
-				 <p>If you want to learn more, watch this instructional video:</p>
-					<a href="https://www.youtube.com/watch?v=Pu8YPOaBQ2s">Watch Video</a> 
-			</div>
-					
-						
-					
-				
-		
-				
-				 <!--closing main   wrapper-->
-
+			
+             
+																
 </body>
 </html>

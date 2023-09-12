@@ -50,6 +50,29 @@ h1, h2 {
     height:auto;
 }
 
-strong {
-  font-weight: 800;
+/* Define the style for the warning box */
+.warning-box {
+   background-color: pink; /* Set the background color to red */
+   border: 2px solid pink; /* Add a red border around the box */
+   padding: 10px; /* Add some padding inside the box */
+   width: auto; /* Remove the fixed width setting */
+   text-align: ; /* Center the text horizontally */
+}
+
+/* Define the style for the "warning" class */
+.warning {
+   color: black; /* Set text color to black */
+   font-weight: normal; /* Reset font weight to normal for the text */
+}
+
+/* Style the warning icon within the "warning-icon" class */
+.warning-icon {
+   font-size: 24px; /* Set the font size of the icon */
+   margin-right: 10px; /* Add right margin for spacing between icon and text */
+   vertical-align: middle; /* Vertically align the icon with the text */
+}
+
+/* Style the bold icon */
+.bold-icon {
+   font-weight: bold; /* Make the icon bold */
 }
