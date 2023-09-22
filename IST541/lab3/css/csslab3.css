@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: lightsteelblue;  
+}
+a {
+	padding: 20px;
+    margin: 8px;
+	
+	font-size: 125%;
+	background-color: lightpink; 
+	color:  your_color_of_choice; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: cornflowerblue; 
+	color: darkblue; 
+}
