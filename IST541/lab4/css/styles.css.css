@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("../img/chinese_writing.gif");   /* background image*/
+	color: #444;          /* text color for the entire document */
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+body {
+	text-align: center;
+	background-color: palegreen;  
+}
+a:hover {
+	font-size:200%;
+	background-color: burlywood; 
+	color: your_color_of_choice; 
+}
+
+a {
+	padding: 50px;
+margin: 20px;
+	font-size: 125%;
+	background-color:  your_color_of_choice; 
+	color:  your_color_of_choice; 
+}
+
+
+
+
+#wrapper {
+	width:900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(255, 255, 255, 0.8);  /* creates light pink background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: white;  /* sets background color for table cells*/
+}
+<bra>
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+<bra>
+audio { 
+	width:400px;   /* sets the width of the audio controls */
+}
+
+
