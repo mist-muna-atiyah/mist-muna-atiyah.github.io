@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/gasstation.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <h1>Gas Station</h1>
+	<a href="question1.html">  Question One </a>
+	<a href="question2.html"> Question Two </a>
+	<h2>What is the primary purpose of a gas station?</h2>
+  <h3>Click on one of the following choices</h3>
+
+  <h2 onclick="wrongAnswer1()" class="choices">Repairing vehicles</h2>
+  <h2 onclick="wrongAnswer2()" class="choices">Selling snacks and beverages</h2>
+  <h2 onclick="rightAnswer()" class="choices">Providing fuel for vehicles</h2>
+  <h2 onclick="wrongAnswer2()" class="choices">Offering car wash services</h2>
+
+  <div id="feedback"></div>
+  <img id="nozzle" src="Image/nozzel.png" />
+</div>
+<script>
+  $(document).ready(function () {
+    $("#nozzle").hide(); // Hide the image by default
+  });
+
+  function rightAnswer() {
+    $("#feedback").html("<h2 style='color:green'>Correct! Providing fuel for vehicles.</h2>");
+    $("#nozzle").show(); // Show the image when the correct answer is clicked
+  }
+
+  function wrongAnswer1() {
+    $("#feedback").html("<h2 style='color:red'>Car repairs are usually done at a mechanic workshop, not at the gas station.</h2>");
+    $("#nozzle").hide(); // Hide the image when any wrong answer is clicked
+  }
+
+  function wrongAnswer2() {
+    $("#feedback").html("<h2 style='color:red'>his is not the primary purpose of the gas station.</h2>");
+    $("#nozzle").hide(); // Hide the image when any wrong answer is clicked
+  }
+</script>
+</script>
+</body>
+</html>
