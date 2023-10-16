@@ -27,7 +27,7 @@ $( function() {
       }
 	   if ($(this).attr("id") == "Pump Nozzle 1") {
          $("#feedback").css("color","black");
-         $("#feedback").html("Pump Nozzle 1, The black nozzle is for gasoline (gas) fuel, suitable for most cars.");
+         $("#feedback").html("The black nozzle is for gasoline (gas) fuel, suitable for most cars.");
       }
    });
 }); //end main jQuery function
