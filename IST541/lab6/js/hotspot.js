@@ -29,9 +29,5 @@ $( function() {
          $("#feedback").css("color","black");
          $("#feedback").html("The black nozzle is for gasoline (gas) fuel, suitable for most cars.");
       }
-	   if ($(this).attr("id") == "Display Panel") {
-         $("#feedback").css("color","black");
-         $("#feedback").html("The display panel typically includes a digital or analog display that shows the amount of fuel dispensed, the total cost, and the unit price per gallon or liter.");
-      }
    });
 }); //end main jQuery function

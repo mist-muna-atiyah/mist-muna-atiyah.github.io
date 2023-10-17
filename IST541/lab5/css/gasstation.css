@@ -23,7 +23,7 @@ body {
 }
 body {
 	text-align: center;
-	background-color: paleturquoise;  
+	background-color: lightblue;  
 }
 #wrapper {
 width: 1200 px;
@@ -33,7 +33,7 @@ text-align: center;
 }
 a:hover {
 	font-size:200%;
-	background-color: palevioletred; 
+	background-color: lightblue; 
 	color: your_color_of_choice; 
 }
 
