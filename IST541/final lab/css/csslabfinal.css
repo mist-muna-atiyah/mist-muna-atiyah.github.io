@@ -7,17 +7,17 @@ body {
 	background-color: lightsteelblue;  
 }
 a {
-	padding: 20px;
-    margin: 8px;
+	padding: 12px;
+    margin: 5px;
 	
 	font-size: 125%;
-	background-color: lightpink; 
+	background-color: antiquewhite; 
 	color:  your_color_of_choice; 
 }
 
 a:hover {
 	font-size:200%;
-	background-color: cornflowerblue; 
+	background-color: peachpuff; 
 	color: darkblue; 
 }
 
