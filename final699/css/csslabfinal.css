@@ -12,7 +12,7 @@ body {
 
 a {
   display: inline-block;
-  padding: 12px;
+  padding: 10px;
   margin: 5px;
   font-size: 150%; /* Adjust the font size as needed */
   background-color: antiquewhite; 
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  font-size: 200%;
+  font-size: 150%;
   background-color: peachpuff; 
   color: darkblue; 
 }
