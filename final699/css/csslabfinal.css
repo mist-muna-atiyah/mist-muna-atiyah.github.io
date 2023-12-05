@@ -12,16 +12,16 @@ body {
 
 a {
   display: inline-block;
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
   font-size: 150%; /* Adjust the font size as needed */
-  background-color: antiquewhite; 
+  background-color: white; 
   color: black; /* Replace with your desired color */
   text-decoration: none;
 }
 
 a:hover {
-  font-size: 150%;
+  font-size: 200%;
   background-color: peachpuff; 
   color: darkblue; 
 }
