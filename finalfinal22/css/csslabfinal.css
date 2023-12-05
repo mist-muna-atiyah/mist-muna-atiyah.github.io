@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+  text-align: center;
+  background-color: lightsteelblue;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  width: 100%; /* Take up the full width of the viewport */
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  font-size: 150%; /* Adjust the font size as needed */
+  background-color: white; 
+  color: black; /* Replace with your desired color */
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 150%;
+  background-color: peachpuff; 
+  color: darkblue; 
+}
+
+table {
+  margin: 0 auto;  /* Centers table with units */
+}
+
+iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  width: 800px; /* Adjust the width as needed with units */
+  margin: 20px auto; /* Adjust the margin as needed */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your Title</title>
+  <link rel="stylesheet" href="your-styles.css">
+</head>
+<body>
+
+  <h1>Your Website</h1>
+
+  <nav>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <!-- Add more links as needed -->
+  </nav>
+
+  <table>
+    <!-- Your table content here -->
+  </table>
+
+  <iframe width="560" height="800" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+
+  <div id="content">
+    <!-- Your content here -->
+  </div>
+
+</body>
+</html>
